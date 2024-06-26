@@ -8,6 +8,7 @@ public class Farma {
         patka.makeSound();
 
         nahrani(patka);
+        nahrani(prase);
     }
     public static void nahrani(Zivotinja zivotinja){
         if(zivotinja instanceof Prase){
