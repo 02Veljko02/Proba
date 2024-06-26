@@ -7,7 +7,7 @@ public class Farma {
         patka.eat();
         patka.makeSound();
 
-        nahrani(prase);
+        nahrani(patka);
     }
     public static void nahrani(Zivotinja zivotinja){
         if(zivotinja instanceof Prase){
